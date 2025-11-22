@@ -265,7 +265,7 @@ jobs:
             
     steps:
     
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v6
     
     - name: Use Node.js ${{ matrix.node-version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
       uses: actions/setup-node@v2
